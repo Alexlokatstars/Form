@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <form>
+
+            <fieldset>
+                <legend>Общая информация</legend>
+                <div class="main">
+
+                    <div class="field">
+                        <label class="name" for="firstname">Фамилия</label>
+                        <input id="firstname" type="text" placeholder="Иванов">
+                    </div>
+                    <div class="field">
+                        <label class="name" for="firstname">Имя</label>
+                        <input id="firstname" type="text" placeholder="Иван">
+                    </div>
+                    <div class="field">
+                        <label class="name" for="patronymic">Отчество</label>
+                        <input id="patronymic" type="text" placeholder="Иванович">
+                    </div>
+                    <div class="field">
+                        <label class="name" for="patronymic">email</label>
+                        <input id="patronymic" type="email" placeholder="mail@mail.ru">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <form>
+            <div class="radio">
+
+                <fieldset>
+                    <legend>Пол</legend>
+
+                    <label>
+                        <input type="radio" name="sex" value="мужской">М
+
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="женский">Ж
+
+                    </label>
+                </fieldset>
+            </div>
+        </form>
+        <form>
+            <div>
+                <fieldset>
+                    <legend>Хобби</legend>
+                    <input type="checkbox" id="Choice1" name="hobby">
+                    <label for="Choice1">Рисование</label>
+                    <input type="checkbox" id="Choice2" name="hobby">
+                    <label for="Choice2">Чтение</label>
+                    <input type="checkbox" id="Choice3" name="hobby">
+                    <label for="Choice3">Вязание</label>
+                    <input type="checkbox" id="Choice4" name="hobby">
+                    <label for="Choice4">Кулинирия</label>
+                </fieldset>
+            </div>
+        </form>
+
+        <form>
+            <button>Отправить</button>
+            <input type="submit" value="Очистить">
+        </form>
+
+
+    </form>
+</body>
+
+</html>
